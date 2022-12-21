@@ -4,11 +4,12 @@ import './index.css';
 import {createBrowserRouter, RouterProvider} from 'react-router-dom';
 
 import reportWebVitals from './reportWebVitals';
+import Home from './Home';
 
 const router = createBrowserRouter([
-   {
+  {
     path: '/', 
-    element: <h1> Home</h1>,
+    element: <Home/>,
     errorElement: <h1> Error Path</h1>
   },
   {
