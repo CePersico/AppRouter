@@ -6,9 +6,10 @@ import {createBrowserRouter, RouterProvider} from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 
 const router = createBrowserRouter([
-  {
+   {
     path: '/', 
-    element: <h1> Home</h1>
+    element: <h1> Home</h1>,
+    errorElement: <h1> Error Path</h1>
   },
   {
     path: '/about', 
